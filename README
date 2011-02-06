@@ -1,0 +1,7 @@
+This is a simple Objective-J class to convert XML to either a CPDictionary or JS Object. Usage is simple.
+
+var parser = [XML2JSONParser sharedParser];
+
+var dict = [parser convertXMLStringToDictionary:aStringOfXML];
+
+Other methods are documented in the class. 
